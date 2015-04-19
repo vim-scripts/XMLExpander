@@ -1,0 +1,32 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5158
+
+Getting Started
+********************
+With the XMLExpander extension plugin for vim you can make your XML file
+clear. The XMLExpander is a pretty printer for XML.
+
+When you have the problem that your xml files are e.g. in one line or have not
+clear insertions this plugin could help you. After running the XMLExpander
+every opening and ending tag is in one line and have clear insertions.
+
+First install the plugin: |xmlexpander-install|
+
+To run the XMLExpander do the following:
+- load the input XML file
+- execute the XMLExpander: menu Plugin->XMLExpander <run>
+
+Now you have a pretty printed XML file (in the same VIM window!).
+
+For further details read the vim help file doc/xmlexpander.txt
+or in VIM :help xmlexpander
+
+Warning:
+The XML File must be syntactical correct! The script do not check this.
+
+
+Whats New
+********************
+Version 0.3
+- New name: xmlexpander
+- Redefine functions and variables (xmlexpander)
+- New function xmlexpander#isContentText(text) to check if a text has to be harmonized
